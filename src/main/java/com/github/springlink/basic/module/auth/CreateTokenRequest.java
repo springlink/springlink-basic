@@ -7,7 +7,7 @@ import lombok.Data;
 
 @Data
 @Schema
-public class AccessTokenRequest {
+public class CreateTokenRequest {
 	@NotEmpty
 	@Schema(description = "Username")
 	private String username;
